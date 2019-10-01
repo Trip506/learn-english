@@ -1,15 +1,11 @@
 <template>
 	<div>
 		<section>
-			<v-parallax :src="require('@/assets/trains.jpg')" height="600">
-				<v-layout column align-center justify-center class="white--text">
-					<v-avatar size="150" color="red">
-						<img :src="require('@/assets/home2.jpg')" />
-					</v-avatar>
-					<h1 class="white--text mb-2 display-1 text-xs-center">Parallax Template</h1>
-					<div class="subheading mb-3 text-xs-center">Powered by Vuetify</div>
-					<v-btn class="blue lighten-2 mt-5" dark large href="/pre-made-themes">Get Started</v-btn>
-				</v-layout>
+			<v-parallax dark src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg">
+				<v-row align="center" justify="center">
+					<h1 class="display-2 font-weight-thin mb-4">Tobias...</h1>
+					<h4 class="subheading">Build your application today!</h4>
+				</v-row>
 			</v-parallax>
 		</section>
 		<section>

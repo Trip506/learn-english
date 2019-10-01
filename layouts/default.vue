@@ -1,6 +1,13 @@
 <template>
-	<v-app dark>
-		<v-navigation-drawer v-model="drawer" :mini-variant="miniVariant" :clipped="clipped" fixed app>
+	<v-app>
+		<v-navigation-drawer
+			color="secondary"
+			v-model="drawer"
+			:mini-variant="miniVariant"
+			:clipped="clipped"
+			fixed
+			app
+		>
 			<v-list>
 				<v-list-tile v-for="(item, i) in items" :key="i" :to="item.to" router exact>
 					<v-list-tile-action>
@@ -12,7 +19,7 @@
 				</v-list-tile>
 			</v-list>
 		</v-navigation-drawer>
-		<v-toolbar :clipped-left="clipped" fixed app>
+		<v-toolbar :clipped-left="clipped" fixed app color="primary">
 			<v-toolbar-side-icon @click="drawer = !drawer" />
 			<v-btn icon @click.stop="miniVariant = !miniVariant">
 				<v-icon>{{ `chevron_${miniVariant ? 'right' : 'left'}` }}</v-icon>
