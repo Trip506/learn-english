@@ -7,18 +7,18 @@
 						<img
 							class="img-circle elevation-7 mb-1"
 							src="http://news.mit.edu/sites/mit.edu.newsoffice/files/images/2016/MIT-Earth-Dish_0.jpg"
-						>
+						/>
 					</v-avatar>
 
 					<v-avatar class="mx-2" size="125px">
 						<img
 							class="img-circle elevation-7 mb-1"
 							src="http://news.mit.edu/sites/mit.edu.newsoffice/files/images/2016/MIT-Earth-Dish_0.jpg"
-						>
+						/>
 					</v-avatar>
 				</v-layout>
 				<div class="text-xs-center">
-					<div class="headline my-3">Sam Furneaux and Henk Schneider</div>
+					<div class="headline my-3">Sam Furneaux and Tobias Reich</div>
 					<div
 						class="subheading text-xs-center grey--text pt-1 mb-5"
 					>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</div>
