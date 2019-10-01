@@ -4,7 +4,7 @@
 			<v-parallax :src="require('@/assets/home0.jpg')" height="600">
 				<v-layout column align-center justify-center class="white--text">
 					<v-avatar size="150" color="red">
-						<img :src="require('@/assets/home2.jpg')">
+						<img :src="require('@/assets/home2.jpg')" />
 					</v-avatar>
 					<h1 class="white--text mb-2 display-1 text-xs-center">Parallax Template</h1>
 					<div class="subheading mb-3 text-xs-center">Powered by Vuetify</div>
@@ -18,6 +18,7 @@
 					<div class="text-xs-center">
 						<p>{{$store.state.collection}}</p>
 						<h2 class="headline">The best way to start developing</h2>
+						<!-- test comment -->
 						<span class="subheading">Cras facilisis mi vitae nunc</span>
 					</div>
 				</v-flex>
