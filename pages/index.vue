@@ -19,7 +19,7 @@
 						<p>{{$store.state.collection}}</p>
 						<h2 class="headline">Making a website with Sam and Tobias</h2>
 						<!-- test comment -->
-						<span class="subheading">Cras facilisis mi vitae nunc</span>
+						<span class="subheading">Our English lessons are so cool</span>
 					</div>
 				</v-flex>
 				<v-flex xs12>
