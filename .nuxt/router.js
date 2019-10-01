@@ -5,6 +5,7 @@ import { interopDefault } from './utils'
 const _b9db4e90 = () => interopDefault(import('../pages/content/index.vue' /* webpackChunkName: "pages/content/index" */))
 const _8a41e764 = () => interopDefault(import('../pages/gallery.vue' /* webpackChunkName: "pages/gallery" */))
 const _6773f854 = () => interopDefault(import('../pages/inspire.vue' /* webpackChunkName: "pages/inspire" */))
+const _7dc90f75 = () => interopDefault(import('../pages/timeline.vue' /* webpackChunkName: "pages/timeline" */))
 const _6b61adc0 = () => interopDefault(import('../pages/content/_id.vue' /* webpackChunkName: "pages/content/_id" */))
 const _522086ce = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -94,6 +95,10 @@ export function createRouter() {
       path: "/inspire",
       component: _6773f854,
       name: "inspire"
+    }, {
+      path: "/timeline",
+      component: _7dc90f75,
+      name: "timeline"
     }, {
       path: "/content/:id",
       component: _6b61adc0,
