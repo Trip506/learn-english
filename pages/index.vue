@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<section>
-			<v-parallax :src="require('@/assets/home0.jpg')" height="600">
+			<v-parallax :src="require('@/assets/trains.jpg')" height="600">
 				<v-layout column align-center justify-center class="white--text">
 					<v-avatar size="150" color="red">
 						<img :src="require('@/assets/home2.jpg')" />
