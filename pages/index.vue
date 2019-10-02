@@ -17,7 +17,7 @@
 				<v-flex xs12 sm4 class="my-3">
 					<div class="text-xs-center">
 						<p>{{$store.state.collection}}</p>
-						<h2 class="headline">Making a website with Sam and Tobias</h2>
+						<h2 class="headline">Sam is making this website</h2>
 						<!-- test comment -->
 						<span class="subheading">Our English lessons are so cool</span>
 					</div>
